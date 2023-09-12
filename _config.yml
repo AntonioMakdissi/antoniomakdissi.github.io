@@ -7,15 +7,15 @@ markdown: kramdown
 exclude: [vendor/ruby]
 
 # Personalization
-github_username: abhn
+github_username: AntonioMakdissi
 blog_url: https://www.nagekar.com
 email: antoniomakdissi1@gmail.com
-keybase_username: abhn
+keybase_username: mcdc
 twitter_username: mcdc_
-reddit_username: abhn
+reddit_username: mcdc
 
 # absolute or relative
-profile_picture: assets/images/pp.jpg
+profile_picture: assets/images/pp.png
 
 # Google Analytics ID
 google_analytics: 

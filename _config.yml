@@ -1,6 +1,6 @@
-title: Abhishek Nagekar
-description: Web & Security Engineer
-site_title: '@abhn - Abhishek Nagekar'
+title: Antonio Al Makdissi
+description: Data Scientist
+site_title: '@mcdc - AntonioMakdissi'
 
 # Build settings
 markdown: kramdown
@@ -9,9 +9,9 @@ exclude: [vendor/ruby]
 # Personalization
 github_username: abhn
 blog_url: https://www.nagekar.com
-email: abhishek@nagekar.com
+email: antoniomakdissi1@gmail.com
 keybase_username: abhn
-twitter_username: abhn_
+twitter_username: mcdc_
 reddit_username: abhn
 
 # absolute or relative

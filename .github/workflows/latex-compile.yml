@@ -1,0 +1,34 @@
+name: LaTeX Compile and Release
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up TeXLive
+      uses: dante-ev/texlive-action@v3
+      with:
+        version: '2021'
+        scheme: basic
+
+    - name: Compile LaTeX Document
+      run: |
+        pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output business_card.tex
+
+    - name: Upload PDF as Release Asset
+      id: upload-release-asset
+      uses: softprops/action-gh-release@v1
+      with:
+        files: output/business_card.pdf
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Get Release URL
+      run: echo "Release URL: ${{ steps.upload-release-asset.outputs.browser_download_url }}"

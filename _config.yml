@@ -1,6 +1,6 @@
 title: Antonio Al Makdissi
 description: Data Scientist
-site_title: '@mcdc - AntonioMakdissi'
+site_title: '@AntonioMakdissi'
 
 # Build settings
 markdown: kramdown
@@ -8,7 +8,7 @@ exclude: [vendor/ruby]
 
 # Personalization
 github_username: AntonioMakdissi
-blog_url: https://www.nagekar.com
+blog_url: https://github.com/AntonioMakdissi/my-business-card/releases/download/v1.0.3.4/card.pdf
 email: antoniomakdissi1@gmail.com
 keybase_username: mcdc
 twitter_username: mcdc_

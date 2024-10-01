@@ -20,21 +20,22 @@ let render_projects = (slug) => {
             categories: ['featured', 'webdev']
         },
         {
-            image: 'assets/images/NNergy.png',
+            image: 'assets/images/NNergy.PNG',
             link: 'https://github.com/AntonioMakdissi/NNergy',
             title: 'NNergy',
+            demo: false,
             technologies: ['Python'],
             description: "This application calculates and analyzes the energy consumption of various neural network layers.",
             categories: ['featured', 'reasearch', 'diy']
         },
         {
-            image: 'assets/images/collage.jpg',
-            link: 'https://github.com/abhn/Marvel',
-            title: 'Marvel',
+            image: 'assets/images/OCAtari.png',
+            link: 'https://github.com/AntonioMakdissi/OCAtariRL',
+            title: 'OCAtariRL',
             demo: false,
-            technologies: ['Android', 'OpenCV'],
-            description: "Attendance marking tool that uses face recognition for marking attendance and firebase for tracking and analytics.",
-            categories: ['featured', 'native']
+            technologies: ['Python'],
+            description: "Object-centric reinforcement learning environments, focuses on the interpretability of model",
+            categories: ['featured', 'reasearch', 'diy']
         },
         {
             image: 'assets/images/social-share-count.jpeg',

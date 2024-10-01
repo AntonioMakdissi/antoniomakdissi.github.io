@@ -11,7 +11,7 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/speedrun.jpg',
+            image: 'assets/images/speedrun.png',
             link: 'https://github.com/AntonioMakdissi/seniorProject',
             title: 'SpeedRun',
             demo: 'https://antoniomakdissi.github.io/seniorProject/',
@@ -20,13 +20,12 @@ let render_projects = (slug) => {
             categories: ['featured', 'webdev']
         },
         {
-            image: 'assets/images/mobile-landscape.jpg',
-            link: 'https://github.com/abhn/Wall-E',
-            title: 'Wall-E',
-            demo: 'http://wall-e-jekyll.github.io/',
-            technologies: ['Semantic UI', 'Jekyll'],
-            description: "A modern Jekyll theme with grid frontpage, beautiful typography, mobile responsive, made with Semantic UI.",
-            categories: ['featured', 'webdev']
+            image: 'assets/images/NNergy.png',
+            link: 'https://github.com/AntonioMakdissi/NNergy',
+            title: 'NNergy',
+            technologies: ['Python'],
+            description: "This application calculates and analyzes the energy consumption of various neural network layers.",
+            categories: ['featured', 'reasearch', 'diy']
         },
         {
             image: 'assets/images/collage.jpg',

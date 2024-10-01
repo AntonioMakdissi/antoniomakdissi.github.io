@@ -13,10 +13,10 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/mentors.jpg',
             link: 'https://github.com/abhn/Mporter',
-            title: 'Mporter',
+            title: 'SpeedRun',
             demo: 'https://mporter.co',
-            technologies: ['Flask', 'Celery', 'Python'],
-            description: "Flask web application for easy reporting updates to one's mentor. Multi-user support, easy to deploy and use.",
+            technologies: ['PHP', 'CSS', 'Javascript', 'SQL', 'HTML'],
+            description: "Delivery web application with mobile app and tracking. Multi-user support, easy to deploy and use. (Senior Project)",
             categories: ['featured', 'webdev']
         },
         {

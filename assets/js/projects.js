@@ -11,13 +11,13 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/favicon.ico',
+            image: 'assets/images/inprogress.jpg',
             link: '',
             title: 'Deep Clustering',
             demo: false,
             technologies: ['Python'],
-            description: "Deep Clustering for Tabular Data: Application to Medical Data",
-            categories: ['featured', 'webdev']
+            description: "Deep Clustering for Tabular Data: Application to Medical Data (in progress)",
+            categories: ['featured', 'reasearch']
         },
         {
             image: 'assets/images/speedrun.png',
@@ -47,36 +47,19 @@ let render_projects = (slug) => {
             categories: ['featured', 'reasearch', 'diy']
         },
         {
-            image: 'assets/images/social-share-count.jpeg',
-            link: 'https://github.com/abhn/Social-Share-Counts',
-            title: 'Social Share Count',
+            image: 'assets/images/Obstacle-Avoidance-Voice-Controlled-Robotic-Vehicle.png',
+            link: '',
+            title: 'Obstacle avoiding Arduino car',
             demo: false,
-            technologies: ['Python'],
+            technologies: ['C/C++', 'Arduino', 'DIY'],
             description: "Ever wondered how many times a URL has been shared on popular social networks?",
-            categories: ['native']
-        },
-        {
-            image: 'assets/images/raspberry-pi-monitor.png',
-            link: 'https://github.com/abhn/RPi-Status-Monitor',
-            title: 'Raspberry Pi Monitor',
-            demo: false,
-            technologies: ['python', 'flask'],
-            description: "Web based status monitor/smart mirror, displays system stats, weather and more.",
-            categories: ['webdev', 'diy']
-        },
-        {
-            image: 'assets/images/s3scan.png',
-            link: 'https://github.com/abhn/S3Scan',
-            title: 'S3Scan',
-            demo: false,
-            technologies: ['python'],
-            description: "Automate crawling of a website and find publicly open S3 buckets for takeover.",
-            categories: ['native', 'reasearch']
+            categories: ['diy']
         },
 
         {
             image: 'assets/images/old-lcd.jpg',
             title: 'Reusing Old LCD Panel',
+            link: '',
             demo: false,
             technologies: ['DIY'],
             description: "Reusing a dead laptop's LCD panel as a secondary monitor.",

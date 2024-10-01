@@ -11,6 +11,15 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
+            image: 'assets/images/favicon.ico',
+            link: '',
+            title: 'Deep Clustering',
+            demo: false,
+            technologies: ['Python'],
+            description: "Deep Clustering for Tabular Data: Application to Medical Data",
+            categories: ['featured', 'webdev']
+        },
+        {
             image: 'assets/images/speedrun.png',
             link: 'https://github.com/AntonioMakdissi/seniorProject',
             title: 'SpeedRun',
@@ -47,15 +56,6 @@ let render_projects = (slug) => {
             categories: ['native']
         },
         {
-            image: 'assets/images/data-destroyer.png',
-            link: 'https://github.com/abhn/data-destroyer-gui',
-            title: 'Data Destroyer',
-            demo: false,
-            technologies: ['C++', 'Qt'],
-            description: "Native GUI wrapper for GNU coreutils tool 'dd'",
-            categories: ['native']
-        },
-        {
             image: 'assets/images/raspberry-pi-monitor.png',
             link: 'https://github.com/abhn/RPi-Status-Monitor',
             title: 'Raspberry Pi Monitor',
@@ -73,18 +73,9 @@ let render_projects = (slug) => {
             description: "Automate crawling of a website and find publicly open S3 buckets for takeover.",
             categories: ['native', 'reasearch']
         },
-        {
-            image: 'assets/images/elementary.png',
-            link: 'https://github.com/abhn/Elementary',
-            title: 'Elementary',
-            demo: 'https://elementary-jekyll.github.io/',
-            technologies: ['Jekyll', 'CSS3'],
-            description: "Elementary is a zero Javascript and minimal CSS ultra lightweight Jekyll theme for those of you who love simplicity.",
-            categories: ['webdev']
-        },
+
         {
             image: 'assets/images/old-lcd.jpg',
-            link: 'https://www.nagekar.com/2018/05/reusing-old-laptop-lcd-panel.html',
             title: 'Reusing Old LCD Panel',
             demo: false,
             technologies: ['DIY'],
@@ -123,7 +114,7 @@ let project_mapper = project => {
                     <article class="card__article">
                         <h2><a href="${project.link}">${project.title}</a></h2>
         
-                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}">Demo</a>` : ''}</p>
+                        <p class="paragraph-text-normal">${project.description} ${project.demo ? `<a href="${project.demo}">DEMO</a>` : ''}</p>
                     </article>
 
                                 
